@@ -1,4 +1,4 @@
-﻿
+
         :root {
             --bp-sm: 544px;
             --bp-med: 768px;
@@ -207,6 +207,7 @@
         .hero-action-container .search-container .input-container #search {
             flex:2;
             border:none;
+            border-radius:0;
             padding:3px;
             font-family: 'Raleway', sans-serif;
         }
@@ -221,6 +222,7 @@
             margin:0;
             padding:0;
             border:none;
+            border-radius:0;
             width:36px;
             height:36px;
         }
@@ -455,7 +457,7 @@
                 text-align:center; 
                 margin:9px 0 6px 0;
                 padding:0; 
-                padding-inline-start:0; 
+                padding-inline-start:0;                   
             }
 
             footer .footer-bottom ul li{
@@ -468,6 +470,7 @@
                 font-size:.75rem;
                 font-weight:500;
                 padding:6px 3px;
+                
                 text-decoration:none;                   
             }
 
