@@ -454,7 +454,8 @@
                 display:inline;
                 text-align:center; 
                 margin:9px 0 6px 0;
-                padding:0;                      
+                padding:0; 
+                padding-inline-start:0; 
             }
 
             footer .footer-bottom ul li{
