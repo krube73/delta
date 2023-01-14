@@ -202,6 +202,7 @@
         .hero-action-container .search-container .input-container {
             display:flex;
             flex:1 0 100%;
+            align-content:center;
         }
 
         .hero-action-container .search-container .input-container #search {
