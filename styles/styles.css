@@ -453,7 +453,7 @@
             footer .footer-bottom ul{
                 display:inline;
                 text-align:center; 
-                margin:9px 0 6px 0;                    
+                margin:9px 0 12px 0;                    
             }
 
             footer .footer-bottom ul li{
@@ -465,7 +465,7 @@
                 color: #fff;
                 font-size:.75rem;
                 font-weight:500;
-                padding:6px 9px;
+                padding:6px;
                 text-decoration:none;                   
             }
 
