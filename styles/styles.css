@@ -210,6 +210,7 @@
             border-radius:0;
             padding:3px;
             font-family: 'Raleway', sans-serif;
+            -webkit-appearance: none;
         }
 
         .hero-action-container .search-container .input-container #search::placeholder {
@@ -225,6 +226,7 @@
             border-radius:0;
             width:36px;
             height:36px;
+            -webkit-appearance: none;
         }
 
         .hero-action-container .search-near-me img {
