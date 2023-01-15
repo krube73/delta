@@ -120,7 +120,8 @@
             padding:9px 12px;
         }
 
-        nav ul li a:hover {
+        nav ul li a:hover,
+        nav ul li a:focus {
                 color:#000;
                 background-color: rgba(255,255,255,.85);
             }
@@ -131,7 +132,8 @@
             cursor: pointer;
         }
 
-        nav .sign-in:hover {
+        nav .sign-in:hover,
+        nav .sign-in:focus {
             color:#fff;
             background-color: var(--main-md);
             cursor: pointer;
@@ -286,8 +288,14 @@
             padding:18px;
             color:#fff;
             font-size:16px;
-            cursor:pointer;
         }
+
+            .user-actions > .open-house a,
+            .user-actions > .create-account a,
+            .user-actions > .search-map a {
+                color:#fff;
+                text-decoration:none;
+            }
 
         .user-actions > div > div {
             display:flex;
@@ -341,17 +349,19 @@
                 padding:0 12px;
             }
 
+        @media(max-width:544px) {
+            .featured-listing .grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+        
         @media(max-width:767px) {
             .featured-listing .grid {
                 grid-template-columns: repeat(2, 1fr);
             }
         }
 
-        @media(max-width:544px) {
-            .featured-listing .grid {
-                grid-template-columns: repeat(1, 1fr);
-            }
-        }
+        
 
             .featured-listing .grid > div {
                 display:grid;
@@ -374,7 +384,8 @@
                 filter: brightness(60%);
             }
 
-            .featured-listing .grid > div > a:hover > img {
+            .featured-listing .grid > div > a:hover > img,
+            .featured-listing .grid > div > a:focus > img {
                 width:100%;
                 filter: brightness(100%);
                 transition: all .3s ease-in-out;
@@ -393,7 +404,8 @@
                 transition: all .3s ease-in-out;
             }
 
-            .featured-listing .grid > div > a:hover >  p {
+            .featured-listing .grid > div > a:hover >  p,
+            .featured-listing .grid > div > a:focus >  p {
                 background-color: rgba( 0,0,0, .5);
             }
        /*end featured listings*/
@@ -451,6 +463,11 @@
                 max-width:200px;                     
             }
 
+            footer .footer-top a {
+                    color: #fff;
+                    text-decoration:none;
+                }
+
 
             footer .footer-bottom{
                 background-color :var(--footer-dk);
@@ -491,7 +508,8 @@
                 text-decoration:none;                   
             }
 
-            footer .footer-bottom ul li a:hover{
+            footer .footer-bottom ul li a:hover,
+            footer .footer-bottom ul li a:focus{
                 color: var(--footer-lt);
             }
 
@@ -503,5 +521,7 @@
                 font-size: 12px;
                 padding:0 12px;
             }
+
+                
         
        /*end footer*/
