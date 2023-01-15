@@ -49,13 +49,13 @@
             grid-template-rows: max-content auto;
             height: 100vh;
             width: 100vw;
-            background-image: url('images/quick-search-bg.jpeg');
+            background-image: url('../images/quick-search-bg.jpeg');
 
-            background-image: url('images/quick-search-bg.jpeg');
-            background-image: url('images/quick-search-bg.jpeg'), linear-gradient(#eb01a5, #d13531);
+            background-image: url('../images/quick-search-bg.jpeg');
+            background-image: url('../images/quick-search-bg.jpeg'), linear-gradient(#eb01a5, #d13531);
 
-            background-image: url('images/quick-search-bg.jpeg'),-webkit-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
-            background-image: url('images/quick-search-bg.jpeg'),-moz-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
+            background-image: url('../images/quick-search-bg.jpeg'),-webkit-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
+            background-image: url('../images/quick-search-bg.jpeg'),-moz-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
             background-blend-mode: overlay;
             background-repeat: no-repeat;
             background-size: cover;
@@ -228,7 +228,7 @@
         }
 
             .hero-action-container .search-container #search_btn {
-                background: url('images/search-button.jpg') no-repeat center;
+                background: url('../images/search-button.jpg') no-repeat center;
                 background-size: cover;
                 margin: 0;
                 padding: 0;
