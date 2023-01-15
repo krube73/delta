@@ -220,6 +220,7 @@
             -webkit-box-shadow: none;
             box-shadow: none;
             -webkit-appearance: none;
+                height:36px;
         }
 
         .hero-action-container .search-container .input-container #search::placeholder {
