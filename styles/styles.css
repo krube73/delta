@@ -228,7 +228,7 @@
         }
 
         .hero-action-container .search-container .input-container #search::placeholder {
-            /*font-family: 'Raleway', sans-serif;*/
+            font-family: 'Open Sans', sans-serif;
         }
 
             .hero-action-container .search-container #search_btn {
