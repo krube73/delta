@@ -228,6 +228,8 @@
         }
 
         .hero-action-container .search-container #search_btn {
+            display:flex;
+            flex:1;
             background: url('images/search-button.jpg') no-repeat center;
             background-size:cover;
             margin:0;
