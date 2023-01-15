@@ -49,13 +49,13 @@
             grid-template-rows: max-content auto;
             height: 100vh;
             width: 100vw;
-            background-image: url('images/quick-search-bg.jpeg');
+            background-image: url('../images/quick-search-bg.jpeg');
 
-            background-image: url('images/quick-search-bg.jpeg');
-            background-image: url('images/quick-search-bg.jpeg'), linear-gradient(#eb01a5, #d13531);
+            background-image: url('../images/quick-search-bg.jpeg');
+            background-image: url('../images/quick-search-bg.jpeg'), linear-gradient(#eb01a5, #d13531);
 
-            background-image: url('images/quick-search-bg.jpeg'),-webkit-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
-            background-image: url('images/quick-search-bg.jpeg'),-moz-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
+            background-image: url('../images/quick-search-bg.jpeg'),-webkit-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
+            background-image: url('../images/quick-search-bg.jpeg'),-moz-linear-gradient(top, rgba(0, 0, 0, .60), rgba(255, 255, 255, 0));
             background-blend-mode: overlay;
             background-repeat: no-repeat;
             background-size: cover;
@@ -202,7 +202,7 @@
         .hero-action-container .search-container .input-container {
             display:flex;
             flex:1 0 100%;
-            align-content:space-between;
+            align-content:center;
         }
 
         .hero-action-container .search-container .input-container #search {
@@ -227,26 +227,24 @@
             font-family: 'Raleway', sans-serif;
         }
 
-        .hero-action-container .search-container #search_btn {
-            display:flex;
-            flex:1;
-            background: url('images/search-button.jpg') no-repeat center;
-            background-size:cover;
-            margin:0;
-            padding:0;
-            border:none;
-            width:36px;
-            height:36px;
-            border-image-width:0;
-            border-width:0;
-            border:none;
-            outline:0;
-            -webkit-border-radius: 0;
-            border-radius: 0;
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            -webkit-appearance: none;
-        }
+            .hero-action-container .search-container #search_btn {
+                background: url('../images/search-button.jpg') no-repeat center;
+                background-size: cover;
+                margin: 0;
+                padding: 0;
+                border: none;
+                width: 36px;
+                height: 36px;
+                border-image-width: 0;
+                border-width: 0;
+                border: none;
+                outline: 0;
+                -webkit-border-radius: 0;
+                border-radius: 0;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                -webkit-appearance: none;
+            }
 
         .hero-action-container .search-near-me img {
             cursor:pointer;
