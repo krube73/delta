@@ -211,6 +211,10 @@
             border-radius:0;
             padding:3px;
             font-family: 'Raleway', sans-serif;
+            border-image-width:0;
+            border-width:0;
+            border:none;
+            outline:0;
             -webkit-border-radius: 0;
             border-radius: 0;
             -webkit-box-shadow: none;
@@ -231,6 +235,7 @@
             width:36px;
             height:36px;
             border-image-width:0;
+            outline:0;
             -webkit-border-radius: 0;
             border-radius: 0;
             -webkit-box-shadow: none;
